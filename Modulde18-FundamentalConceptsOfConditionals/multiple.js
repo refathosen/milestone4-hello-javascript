@@ -48,6 +48,7 @@ console.log('user && user.name ->', user && user.name); // null
 
 const salary = 25000;
 const isBcs = true;
+const height = 180;
 
 if(salary > 30000 && isBcs == true){
     console.log("You are a suuupatro");
@@ -56,6 +57,28 @@ if(salary > 30000 && isBcs == true){
 }
 
 if(salary > 30000 || isBcs == true){
+    console.log("You are a suuupatro");
+}else{
+    console.log("onno patro khuji");
+}
+
+
+if(salary > 30000 || height > 200 || isBcs == true){
+    console.log("You are a suuupatro");
+}else{
+    console.log("onno patro khuji");
+}
+
+
+
+// complex condition
+if((salary > 30000 && height > 180) || isBcs == true){
+    console.log("You are a suuupatro");
+}else{
+    console.log("onno patro khuji");
+}
+
+if((salary > 30000 || height > 180) && isBcs == true){
     console.log("You are a suuupatro");
 }else{
     console.log("onno patro khuji");
